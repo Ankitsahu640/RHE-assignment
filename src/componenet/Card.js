@@ -17,7 +17,7 @@ const Card = (props) => {
   return (
     <div className="card-accordion">
         <div className="cardFront">
-            <div className="frontDetail"><h3>{getString(user.company.name)}</h3></div>
+            <div className="frontDetail"><h5>{getString(user.company.name)}</h5></div>
             <div className="frontDetail">
                 <b>CONTACT</b>
                 <p>{getString(user.name)}</p>

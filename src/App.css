@@ -2,18 +2,87 @@ body{
   background-color: rgb(238, 249, 249);
 }
 
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.infoNote{
+  color: rgb(248, 87, 87);
+  font-size: small;
+  padding-top: 3rem ;
+}
+
+
 .cardPage{
-  margin:80px auto;
+  margin:2rem auto;
   min-height: 62vh;
 }
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+  margin-top: 3.6rem ;
+}
+#search{
+  width:45rem;
+  height:2rem;
+  padding: 1rem;
+  margin-right: 3rem;
+  border: 2px solid rgb(185, 188, 189);
+  border-radius: 10rem;
+}
+.filter-btn{
+  margin-right:1rem;
+}
+.filter-form{
+  padding:1rem ;
+}
+.filter-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.filter-footer button{
+  font-size: 0.83rem;
+  padding: 0.2rem 0.5rem;
+}
+
 
 .card-accordion {
   background-color: white;
   width: 80vw;
   height: auto;
   overflow: hidden;
-  margin: 50px auto;
-  padding: 30px 40px 20px;
+  margin: 1rem auto;
+  padding: 1.5rem 2rem 1rem;
   border-radius: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -21,6 +90,7 @@ body{
 .card-accordion__button {
   background-color: rgb(249, 1, 1);
   color: #fff;
+  font-size: 0.8rem;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
