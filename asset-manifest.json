@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RHE-assignment.git/static/css/main.cac428ed.css",
+    "main.js": "/RHE-assignment.git/static/js/main.02c32125.js",
+    "static/js/787.249c7193.chunk.js": "/RHE-assignment.git/static/js/787.249c7193.chunk.js",
+    "index.html": "/RHE-assignment.git/index.html",
+    "main.cac428ed.css.map": "/RHE-assignment.git/static/css/main.cac428ed.css.map",
+    "main.02c32125.js.map": "/RHE-assignment.git/static/js/main.02c32125.js.map",
+    "787.249c7193.chunk.js.map": "/RHE-assignment.git/static/js/787.249c7193.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cac428ed.css",
+    "static/js/main.02c32125.js"
+  ]
+}
